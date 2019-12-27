@@ -38,7 +38,7 @@ background-color:#ff4c68;}
 }
 
 .navbar-brand{
-	font-size:2.5rem;
+	font-size:3rem;
 	font-family: 'Ubuntu';
 }
 .nav-item{
@@ -115,8 +115,11 @@ opacity:.7;
 .navbar-nav a{
 float: right;
 }
+#title button.navbar-toggler{
+font-size:2rem;
+}
 #title h1{text-align:center;}
-#title button{float: none;}
+#title .button-download{float: none;}
 	.head-img{
 		position:static;
 		transform:rotate(0);
