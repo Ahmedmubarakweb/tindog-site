@@ -5,6 +5,10 @@ body{
 	.container-fluid{
 	padding:7% 10%;
 }
+p{
+	font-size:1rem;
+	font-weight:bold;
+}
 .big-heading{
    font-size: 3.5rem;
    color:#fff;
@@ -34,7 +38,7 @@ background-color:#ff4c68;}
 }
 .navbar-nav a{
 	padding:0 3%;
-	font-size:1.3rem;
+	font-size:1.5rem;
 }
 
 .navbar-brand{
@@ -109,9 +113,6 @@ opacity:.7;
 
 /*media quries*/
 @media (max-width:992px){
-#title .container-fluid{
-	padding:7% 7%;
-}
 .navbar-nav a{
 float: right;
 }
@@ -124,5 +125,8 @@ font-size:2rem;
 		position:static;
 		transform:rotate(0);
 	}
-	
+	.navbar-nav a{
+	padding:0 3%;
+	font-size:2.3rem;
+}
 }
