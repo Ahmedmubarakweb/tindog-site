@@ -65,9 +65,7 @@ background-color:#ff4c68;}
 margin-bottom:6%;
 opacity:.7;
 }
-#features .feat{
-	margin-bottom:15%;
-}
+
 #features i:hover{opacity: 1;}
 
 /*testimonials*/
@@ -131,5 +129,8 @@ font-size:2rem;
 	.navbar-nav a{
 	padding:0 3%;
 	font-size:2.3rem;
+}
+	#features .feat{
+	margin-bottom:15%;
 }
 }
